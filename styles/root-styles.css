@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Arial';
+    src: url('./font/ArialMT.woff2') format('woff2'),
+        url('./font/ArialMT.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('./font/Arial-ItalicMT.woff2') format('woff2'),
+        url('./font/Arial-ItalicMT.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arial';
+    src: url('./font/Arial-BoldMT.woff2') format('woff2'),
+        url('./font/Arial-BoldMT.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Prata';
+    src: url('./font/Prata-Regular.woff2') format('woff2'),
+        url('./font/Prata-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+:root {
+    --dark-color1: #222222;
+    --dark-color1_70: rgba(34, 34, 34, 0.7);
+    --dark-color2: #282829;
+    --dark-color2_70: rgba(40, 40, 41, 0.7);
+
+    
+    --gold-color: #C2922C;
+    --text-color: white;
+
+    --beige-color: #D5C9BE;
+
+
+
+}

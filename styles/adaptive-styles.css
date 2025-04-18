@@ -1,0 +1,276 @@
+@media screen and (max-height: 900px) {
+    .left-section {
+        padding: 1.77vw 0px 5vh 8vw
+    }
+
+    .beginning-container h2 {
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+
+    .beginning-container ul {
+        gap: 1vw;
+    }
+
+    #contact-us-section {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .contact-us-section-container {
+        height: 500px;
+    }
+
+    form {
+        margin-top: 30px;
+    }
+
+    input[type="text"] {
+        margin-bottom: 10px;
+    }
+
+    label {
+        margin: 18px 0px 20px;
+    }
+    
+    
+}
+
+@media screen and (max-width: 1360px) {
+    #welcome-section {
+        grid-template-columns: 70vw 30vw;
+    }
+
+    .about-us-container ul {
+        gap: 60px;
+    }
+
+    .about-us-container li {
+        gap: 10px;
+    }
+
+    .about-us-container li:not(:last-child)::after {
+        bottom: -30px;
+    }
+
+    .contacts-list {
+        transform: translateX(0px);
+    }
+}
+
+@media screen and (max-width: 1180px) {
+    .left-section {
+        padding: 1vw 0px 4vh 3vw;
+    }
+
+    .left-section .button-all {
+        padding: 1em 1.85em;
+    }
+
+    .about-us-block {
+        padding-top: 4vh;
+        gap: 70px;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    
+    #welcome-section {
+        display: block;
+        background: url(../media/images/image-beginning-mobile.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: center;
+    }
+
+    .left-section {
+        justify-content: flex-start;
+        align-items: center;
+
+        gap: 20%;
+        width: 100%;
+        height: 100%;
+
+        padding: 20px 30px 0px;
+    }
+
+    header {
+        width: 100%;
+    }
+
+    .beginning-container h2 {
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .beginning-container li {
+    } 
+
+    #welcome-section > .image-block {
+        display: none;
+    }
+
+    .about-us-section-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+
+    .about-us-section-container .image-block {
+        width: 100vw;
+        height: 40vh;
+    }
+
+    .contact-us-section-container {
+        justify-content: center;
+    }
+
+    .contact-us-section-container .image-block {
+        display: none;
+    }
+
+    .contacts-block {
+        justify-content: center;
+        width: 80%;
+        padding: 0px;
+    }
+
+    .form-block {
+        width: 100%;
+    }
+
+    .footer-contacts-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+
+}
+
+@media screen and (max-width: 600px){
+
+    .logo svg {
+        width: 80%;
+        height: 80%;
+    }
+
+    .header-list {
+        display: none;
+    }    
+
+    .beginning-container li span {
+        display: contents;    
+    }
+
+    .burger-button {
+        display: flex;
+    }
+
+    .about-us-block {
+        padding: 0px 20px;
+    }
+
+    .info-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    
+}
+
+@media screen and (max-width: 550px){
+    .about-us-section-container {
+        gap: 30px;
+    }
+
+    .about-us-section-container .image-block {
+        height: 20vh;
+    }    
+
+    .about-us-block {
+        gap: 50px;
+    }
+
+    .about-us-container ul {
+        gap: 40px;
+    }
+
+    .about-us-container li:not(:last-child)::after {
+        bottom: -20px;
+    }
+
+    .about-us-block .button-all {
+        padding: 20px 2.08em;
+    }
+
+    .contacts-list {
+        gap: 25px;
+    }
+}
+
+@media screen and (max-width: 460px){
+
+    .beginning-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-section {
+        gap: 13%;
+        padding: 20px 10px 0px;
+    }
+
+    
+    @media screen and (max-height: 520px) {
+
+        .left-section {
+            gap: 8%;
+        }
+
+        .beginning-container h2 {
+            margin-top: 0px;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    .information-container {
+        padding: 3.7vh 0px;
+    }
+
+    .anchor-button {
+        gap: 22px;
+    }
+
+    .anchor-button li a {
+        font-size: 0.875rem;
+    }
+
+    .contacts-list {
+        gap: 15px;
+    }
+
+    .info-container p,
+    .info-container a {
+        font-size: 1rem;
+    }
+    
+}
+
+
+@media screen and (max-width: 370px) {
+
+    .contact-us-section-container {
+        height: 420px;
+    }
+
+    label {
+        font-size: 1rem;
+    }
+
+}
+
