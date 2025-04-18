@@ -83,7 +83,11 @@
         background-size: cover;
         background-position-x: center;
     }
-
+    
+    .beginning-container li {
+        background-color: var(--dark-color2);
+    }
+    
     .left-section {
         justify-content: flex-start;
         align-items: center;
@@ -103,9 +107,6 @@
         margin-top: 20px;
         margin-bottom: 40px;
     }
-
-    .beginning-container li {
-    } 
 
     #welcome-section > .image-block {
         display: none;
